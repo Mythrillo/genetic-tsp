@@ -1,4 +1,7 @@
-filename: berlin.txt
 population_size: 100
-tournament_size: 50
-
+crossover_probability: 0.9
+mutation_probability: 0.1
+iterations: 10000000
+dataset_path: "berlin.txt"
+tournament_size: 70
+change_parameters_after_stagnation: False
